@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>interactive brain</title>
+    <title>Interactive Brain</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>interactive brain</h1>
+    <h1>Interactive Brain</h1>
     <div id="buttons">
-      <button type="button" onclick="interface.update(1)">old brain</button>
-      <button type="button" onclick="interface.update(2)">cerebral cortex</button>
-      <button type="button" onclick="interface.update(3)">limbic system</button>
+      <button type="button" onclick="interface.update(1)">Old Brain</button>
+      <button type="button" onclick="interface.update(2)">Cerebral Cortex</button>
+      <button type="button" onclick="interface.update(3)">Limbic System</button>
     </div>
     <br>
     <div id="interface">
@@ -25,6 +25,25 @@
       </div>
     </div>
     <div id="info"></div>
+    <br>
+    <br>
+    <h1>Neuroimaging</h1>
+    <div id="neuroimagingContainer">
+      <div id="MRIContainer">
+        <h2>MRI</h2>
+        <br>
+        <img src="images/MRI.jpg" width="300" height="300">
+        <br>
+        <p><strong>MRI (magnetic resonance imaging)</strong> scans use magnetic fields and radio waves to produce computer-generated images of soft-tissue. They show brain anatomy.<br><br><strong>fMRI (functional MRI)</strong> scans reveal bloodflow, and therefore brain activity, by comparing successive MRI scans. They show brain function as well as structure and reveal how labor is divided in the brain.</p>
+      </div>
+      <div id="CTContainer">
+        <h2>CT</h2>
+        <br>
+        <img src="images/CT.jpg" width="300" height="300">
+        <br>
+        <p><strong>CT (computed tomography)</strong> scans are a series of x-ray photographs taken from different angles and combined by a computer into a complete represetation of a slice of the structure of the brain. They are also known as CAT scans.</p>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
